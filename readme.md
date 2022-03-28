@@ -28,18 +28,21 @@ Open the Windows Command prompt as Administrator
   `python get-pip.py`  
 Confirm that PIP is installed by typing `pip help` at the command prompt  
   
-## Install Pandas, Django, Git  
+## Install Pandas, Django
 Open the windows Command prompt as Administrator  
   `pip install pandas`  
   `pip install django`  
-  `pip install git`  
-    
+  
 ## Install TeamTree  
+From Chrome, go to: https://github.com/daveisnt/teamtree/  
+  Click "Code"  
+    Click "Download ZIP"  
+    Right-click on the ZIP file  
+    Click "Extract All"  
+    Type `c:\python_web` for the destination folder  
+    Click "Extract"  
 From Command prompt  
-  `mkdir c:\python_web`   
-  `cd c:\python_web`  
-  `git clone https://github.com/daveisnt/teamtree.git`  
-  `cd teamtree`  
+  `cd c:\python_web\teamtree-master`  
   `python manage.py runserver`  
     
 Open Chrome and go to https://localhost:8000/tree/  

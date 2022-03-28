@@ -41,7 +41,12 @@ From Chrome, go to: https://github.com/daveisnt/teamtree/
     Click "Extract All"  
     Type `c:\python_web` for the destination folder  
     Click "Extract"  
-From Command prompt  
+  
+If you have team lists already to go, save them to... 
+  `c:\python_web\teamtree-master\teamtree.csv`  
+  `c:\python_web\teamtree-master\teamupdates.csv`  
+  
+From Command prompt, type:
   `cd c:\python_web\teamtree-master`  
   `python manage.py runserver`  
     

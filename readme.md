@@ -5,7 +5,19 @@ TeamTree is a simple application for displaying and navigating a hierarchy of na
   
 ## Install Python  
 Downloand and isntall Python from https://www.python.org/downloads/  
-  
+Select "Custom Install"  
+Uncheck the boxes for "Documentation", "Tcl/tk", "Py launcher"  
+Check the boxes for "Install for all users", "Precompile standard library"  
+Change the install location to `c:\python`  
+
+## Add Python path to Windows  
+Click Start and type "Edit the system environment variables" <enter>  
+In System Properties, click "Environment Variables" near the bottom.  
+In System Variables, scroll unti you find "Path".  Highlight it then click "Edit"  
+In Edit Environment Variable, click "New".  Add "c:\python" as the new path variable.  
+Click "OK", "OK"  
+Confirm that python is installed correctly by typing `python --version` at the command prompt.  
+    
 ## Install Pandas, Django, Git  
 Open the windows Command prompt as Administrator.  
   `pip install pandas`  

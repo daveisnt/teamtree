@@ -12,14 +12,24 @@ Change the install location to `c:\python`
 
 ## Add Python path to Windows  
 Click Start and type "Edit the system environment variables" <enter>  
-In System Properties, click "Environment Variables" near the bottom.  
-In System Variables, scroll unti you find "Path".  Highlight it then click "Edit"  
-In Edit Environment Variable, click "New".  Add "c:\python" as the new path variable.  
-Click "OK", "OK"  
-Confirm that python is installed correctly by typing `python --version` at the command prompt.  
+  In System Properties, click "Environment Variables" near the bottom.  
+    In System Variables, scroll unti you find "Path".  Highlight it then click "Edit"  
+      In Edit Environment Variable, click "New".  Add "c:\python" as the new path variable  
+      In Edit Environment Variable, click "New".  Add "c:\python\scripts" as the new path variable  
+      Click "OK", "OK"  
+Confirm that Python is installed correctly by typing `python --version` at the command prompt  
+Check if PIP is installed by typing `pip help` at the command prompt  
+  If PIP is installed, skip the next step
     
+## Install PIP to Windows
+Download and save this file to `c:\python`: https://bootstrap.pypa.io/get-pip.py  
+Open the Windows Command prompt as Administrator  
+  `cd c:\python`  
+  `python get-pip.py`  
+Confirm that PIP is installed by typing `pip help` at the command prompt  
+  
 ## Install Pandas, Django, Git  
-Open the windows Command prompt as Administrator.  
+Open the windows Command prompt as Administrator  
   `pip install pandas`  
   `pip install django`  
   `pip install git`  
